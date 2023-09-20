@@ -5,7 +5,8 @@
     <title>World's Best Lasagna by allrecipes</title>
     <style>
         body {
-            font-family:'Courier New', Courier, monospace
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
         }
         img{
             width: 350px;
@@ -25,17 +26,18 @@
         td {
             padding-bottom: 15px;
         }
-    ul {
-        list-style: none;
-        
-        }
-    ul li::before {
+    ul li::marker {
         color: hotpink;
-        font-weight: bold;
-        display: inline-block;
         width: 1em;
-        margin-left: 0em;
+        margin-left: 2em;
         content: "\2022";
+        font-size: 1rem;
+        }
+        ul {
+            max-width: 80ch;
+        }
+        li {
+            padding-inline-start: 1ch;
         }
     </style>
 </head>

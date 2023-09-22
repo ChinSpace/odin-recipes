@@ -7,6 +7,7 @@
         body {
             font-family:Georgia, 'Times New Roman', Times, serif;
             padding: 10px;
+            
         }
         img{
             width: 600px;
@@ -25,13 +26,14 @@
         }
         td {
             padding-bottom: 15px;
+            color: #000000;
         }
     ul li::marker {
         color: hotpink;
         width: 1em;
         margin-left: 2em;
         content: "\2022";
-        font-size: 1rem;
+        font-size: 2rem;
         }
         ul {
             max-width: 80ch;
@@ -83,5 +85,20 @@
         <li><b>Egg</b>: An egg helps bind the ricotta so it doesn't ooze out of the lasagna when you cut into it.</li>
     </ul>
     <img src="../food-images/what-to-serve-with-lasagna" alt="Garlic Knots">
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">
+          This is where a preview for a post might go.
+        </p>
+      </div>
+      <style>
+      .subsection.header {
+        color: red;
+      }
+      
+      .subsection#preview {
+        color: blue;
+      }
+      </style>
 </body>
 </html> 

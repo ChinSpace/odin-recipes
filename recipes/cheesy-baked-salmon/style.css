@@ -1,0 +1,26 @@
+/* style css */
+body {
+    font-family:'Playfair Display',serif;
+}
+.h1 {
+    font-size: 50px;
+    line-height: 58px;
+}
+.box {
+    
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    text-align: center;
+    color: white;
+    background-image:linear-gradient(to top, #000000aa,#9a9898bc), url(https://www.bitesized.ph/wp-content/uploads/2016/07/CONTIS-BAKED-SALMON.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

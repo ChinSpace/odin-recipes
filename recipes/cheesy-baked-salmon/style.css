@@ -2,6 +2,45 @@
 body {
     font-family:'Playfair Display',serif;
 }
+.navbar {
+    position: relative;
+    display: flex; flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#menu-header-menu-1 {
+    display: contents!important;
+}
+.menu-item {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.navbar-nav {
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar>.container, 
+.navbar>.container-fluid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 .h1 {
     font-size: 50px;
     line-height: 58px;
@@ -12,8 +51,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    
-    text-align: center;
+    /* text-align can be removed since display flex can do its purpose? */
+    text-align: center;  
     color: white;
     background-image:linear-gradient(to top, #000000aa,#9a9898bc), url(https://www.bitesized.ph/wp-content/uploads/2016/07/CONTIS-BAKED-SALMON.png);
     

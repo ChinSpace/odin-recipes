@@ -3,7 +3,7 @@ body {
     font-family:'Playfair Display',serif;
 }
 .container-body {
-    width: 500px;
+    flex: auto;
 }
 .navbar {
     position: relative;
@@ -65,4 +65,19 @@ body {
     display: flex; flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.entry-content {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    margin: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+.content {
+    justify-content: center;
+    justify-content: space-between;
+    display: inline-block;
+    font-size: 100%;
 }

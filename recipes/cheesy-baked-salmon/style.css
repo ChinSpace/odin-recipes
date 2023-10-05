@@ -73,11 +73,29 @@ body {
     margin: 80px;
     padding-left: 15px;
     padding-right: 15px;
-   
+     
 }
 .content {
-    justify-content: center;
-    justify-content: space-between;
+    
+    justify-content: space-evenly;
     display: inline-block;
     font-size: 100%;
 }
+nav ol{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    
+}
+nav li {
+    flex: 1 1 auto;
+    
+}
+
+.wrapper {
+    display: flex;
+  }
+  
+  .wrapper input[type="text"] {
+    flex: 1 1 auto;
+  }
